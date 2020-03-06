@@ -1,0 +1,63 @@
+body{
+    background: rgb(41, 63, 0);
+    background: url("./components/background.jpg");
+}
+
+.App{
+    width: 50%;
+    border-radius: 17px;
+    padding: 10px;
+    background: rgb(6, 176, 255);
+    margin: 27px auto;
+    box-shadow: 1px 2px 5px green;
+}
+
+
+.App img{
+    width: 27%;
+    display: block;
+    margin: auto;
+}
+
+.closeIcon{
+    position: absolute;
+    top:17px ;
+    right:15px;
+    background: hotpink;
+    border-radius:50% ;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 27px;
+    color: indigo;
+}
+
+.react-datepicker-wrapper ,
+.react-datepicker__input-container{
+    display: block;
+}
+
+.Reminder_Title{
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-family:cursive;
+    
+}
+
+input , button{
+    margin:10px 0;
+}
+
+.list-group-item{
+    margin: 5px 0;
+}
+
+.clear_rem{
+    cursor: pointer;
+    margin: 10px 0;
+    background-color: violet;
+}
+
